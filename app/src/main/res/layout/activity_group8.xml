@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".group.Group8Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:background="@drawable/shape_matchet">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/cros"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/close"
+                android:layout_gravity="end"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="18dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/profile2"/>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rajesh K"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Enginooning Student Class of 2024"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp"
+                android:gravity="center">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:text="follow"
+                    android:background="@drawable/buttom_shape3"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="7dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="150dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/button_shape"
+                    android:text="Massage" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Me"
+                android:textSize="26dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hey, this is my homepages so i have to say something \n yourself becouse you becouse you know your self se wee that you do not know"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Connected"
+                android:textSize="22dp"
+                android:layout_marginLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:cardCornerRadius="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/profile2"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:cardCornerRadius="100dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/profile1"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:cardCornerRadius="100dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/profile4"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MORE"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="#0829E1"/>
+
+
+
+            </LinearLayout><TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connected"
+            android:textSize="22dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="MODEL-UN"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="ACM"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="SAE"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="12dp"
+                    android:text="View Profile"
+                    android:textColor="@color/white"
+                    android:background="@drawable/buttom_shape2"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

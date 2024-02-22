@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BottomNavigationView"
+        tools:targetApi="31">
+        <activity
+            android:name=".BuyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".java.JavaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".popup.JavaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JavaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".group.Group10Activity"
+            android:exported="false" />
+        <activity
+            android:name=".group.Group9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".group.Group8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".group.Group7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".group.Group6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".group.Group5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".group.Group4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".group.Group3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".group.Group2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".group.Group1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".groupmembers.MembersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".groupmembers.Chat_ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".comment.Comment4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".comment.Comment3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".comment.Comment2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".comment.Comment1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.Chat4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.Chat3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.Chat2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.Chat1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".AddImgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

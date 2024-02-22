@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".groupmembers.MembersActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/btn1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/backMambers"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/left_arrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Group Members"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="60dp"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/letter_i"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#CCE5F1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/group1"
+                            android:scaleType="centerCrop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/profile1"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/more2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rajesh K."
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Science"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="76dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/notifiacation1"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="130dp"
+                        android:src="@drawable/mute_notification"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#FDF4CC"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/group2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/profile2"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/more2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stephanie Welk"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EET CS"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="76dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/notifiacation2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="130dp"
+                        android:src="@drawable/mute_notification"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#EBDFFB"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:backgroundTint="@color/purple_500"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/group3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/profile5"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/more2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Joe Goldburg"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Science"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="76dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/notifiacation3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="130dp"
+                        android:src="@drawable/mute_notification"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#B7F8CE"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/group4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/profile3"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/more2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dianne Laderas"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Programming"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="76dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/notifiacation4"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="130dp"
+                        android:src="@drawable/mute_notification"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#B9BEF3"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/group5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/profile4"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/more2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Emily Geller"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Science"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="76dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/notifiacation5"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="130dp"
+                        android:src="@drawable/mute_notification"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#F8E0FD"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/group6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/profile5"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/more2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Michael Watson"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Science"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="76dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/notifiacation6"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="130dp"
+                        android:src="@drawable/mute_notification"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#ECCFCF"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/group7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/profile6"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/more2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rajesh K."
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Science"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="76dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/notifiacation7"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="130dp"
+                        android:src="@drawable/mute_notification"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#F8F6CC"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/group8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/profile7"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/more2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rajesh K."
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Science"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="76dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/notifiacation8"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="130dp"
+                        android:src="@drawable/mute_notification"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#F5DDF8"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/group9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/profile8"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/more2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rajesh K."
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Science"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="76dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/notifiacation9"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="130dp"
+                        android:src="@drawable/mute_notification"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="#D5D0F8"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/group10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/profile5"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/more2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rajesh K."
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Science"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="76dp"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="10dp"/>
+                    <ImageView
+                        android:id="@+id/notifiacation10"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="130dp"
+                        android:src="@drawable/mute_notification"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:text="SALOM"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
